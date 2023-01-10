@@ -18,4 +18,8 @@ public class PacchettiStore_Prototype {
     {
         return (Shape_Prototype) packMap.get(nome).clone();
     }
+
+    public PacchettiStore_Prototype(){
+
+    }
 }

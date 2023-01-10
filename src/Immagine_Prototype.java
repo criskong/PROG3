@@ -1,3 +1,5 @@
+import java.lang.constant.Constable;
+
 /* classe che permette di crare un pacchetto immagine (Prototype)*/
 public class Immagine_Prototype extends Shape_Prototype{
 
@@ -7,8 +9,8 @@ public class Immagine_Prototype extends Shape_Prototype{
 
    public Immagine_Prototype() {
        this.tipo = "Immagine";
-       this.ind_ric = 124154543;
-       this.ind_tras = 5463475;
+       this.ind_ric = 12415;
+       this.ind_tras = 5;
    }
 
 
@@ -16,9 +18,10 @@ public class Immagine_Prototype extends Shape_Prototype{
 
     /*metodo che permette di aggiungere   il pacchetto */
    @Override
-   public Object add_pacchetto()
+   public Constable add_pacchetto()
    {
        return  Immagine_Prototype.this.tipo;
    }
+
 
 }

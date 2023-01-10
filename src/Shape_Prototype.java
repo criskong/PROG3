@@ -1,4 +1,6 @@
-public abstract class Shape_Prototype implements Cloneable{
+import java.lang.constant.Constable;
+
+public  abstract class Shape_Prototype implements Cloneable{
    /*variabili che vengono usate per ogni pacchetto creato*/
     protected String tipo;
     protected int ind_ric;
@@ -30,5 +32,9 @@ public abstract class Shape_Prototype implements Cloneable{
     }
 
     /*metodo astratto che permette di aggiungere un pacchetto*/
-    public abstract Object add_pacchetto();
+    public  abstract Constable add_pacchetto();
+
+    public String getTipo() {
+        return tipo;
+    }
 }

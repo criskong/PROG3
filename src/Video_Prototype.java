@@ -1,3 +1,5 @@
+import java.lang.constant.Constable;
+
 /* classe che permette di crare un pacchetto Video (Prototype)*/
 public class Video_Prototype extends Shape_Prototype{
 
@@ -5,12 +7,12 @@ public class Video_Prototype extends Shape_Prototype{
     public Video_Prototype(){
         this.tipo="video";
         this.ind_ric = 1254325;
-        this.ind_tras = 653246;
+        this.ind_tras = 4;
     }
 
     /*metodo che permette di aggiungere   il pacchetto */
     @Override
-    public Object add_pacchetto()
+    public Constable add_pacchetto()
     {
         return Video_Prototype.this.tipo;
     }
