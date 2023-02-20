@@ -1,0 +1,76 @@
+
+
+.node {
+    display: inline-block;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.fa-arrow-right {
+    color: white;
+    margin: 0 10px;
+}
+#grafo{
+    position: absolute;
+    right: 50%;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.h2{
+    color: white;
+}
+.form-select{
+    margin-top: -25%;
+    max-width: 17% ;
+}
+
+
+
+img{
+    width: 50%;
+    margin-left: 50%;
+
+
+
+}
+
+label{
+
+    margin-top: 0;
+}
+
+.quantità{
+margin-top: 2%;
+
+}
+
+.titolo{
+    color: #344767;
+    text-align: center;
+    margin-top:  5%;
+}
+
+.text-center {
+    text-align: center !important;
+    color: #344767;
+}
+
+.control{
+    width: 10%; !important;
+    margin-top: -50%;
+}
+
+form{
+    margin-bottom: -60%;
+}
+
